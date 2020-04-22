@@ -153,15 +153,23 @@ li {
   -webkit-box-shadow: 2px 8px 39px 31px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 8px 39px 31px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 8px 39px 31px rgba(0, 0, 0, 0.75);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF4500), to(#FFA07A));
+  background: -moz-linear-gradient(#FF4500, #FFA07A);
+  border-radius: 10px;
+  border: 1px solid #666;
 }
 
 /*--------------------------------------------------------------активные кнопки*/
 
 .button:hover {
-  border-color: #7cfc00 #7cfc00 #7cfc00 #7cfc00;
+  border-color: PaleGoldenrod;
   border-style: solid;
   border-width: 1px;
-  background: #ffff99;
+  background: #B0C4DE;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#4682B4), to(#87CEFA));
+  background: -moz-linear-gradient(#4682B4, #87CEFA);
+  font-family: 'Courier New', Courier, monospace;
+  color: #2F4F4F;
 }
 
 .button:focus {
@@ -176,5 +184,11 @@ li {
   border-color: #ddd #333 #333 #ddd;
   border-style: solid;
   border-width: 1px;
+}
+.book_title {
+font-family: 'Courier New', Courier, monospace;
+color: #B0C4DE;
+font-weight: bolder;
+font-size: 20px;
 }
 /*-------------------------------------------------------------*/
